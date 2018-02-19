@@ -1,0 +1,26 @@
+// Satz_typ.cpp: implementation of the Satz_typ class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Satz_typ.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CSatz_typ::CSatz_typ()
+{
+
+}
+
+CSatz_typ::~CSatz_typ()
+{
+
+}

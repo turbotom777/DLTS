@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_U_mess", "C_U_mess\C_U_mess.vcproj", "{498AC151-DE51-46CB-A0AD-17278EA11252}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_t_mess", "C_t_mess\C_t_mess.vcproj", "{7C7A4E77-253E-4176-882F-F0C67AD00828}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLTSgui", "DLTSgui\DLTSgui.vcproj", "{3921E668-5B6A-43B5-A2D0-765622AC1A3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eurotherm", "Eurotherm\Eurotherm.vcproj", "{7711823B-70AC-4C10-8C3D-7B1CFA997F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{498AC151-DE51-46CB-A0AD-17278EA11252}.Debug|Win32.ActiveCfg = Debug|Win32
+		{498AC151-DE51-46CB-A0AD-17278EA11252}.Debug|Win32.Build.0 = Debug|Win32
+		{498AC151-DE51-46CB-A0AD-17278EA11252}.Release|Win32.ActiveCfg = Release|Win32
+		{498AC151-DE51-46CB-A0AD-17278EA11252}.Release|Win32.Build.0 = Release|Win32
+		{7C7A4E77-253E-4176-882F-F0C67AD00828}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C7A4E77-253E-4176-882F-F0C67AD00828}.Debug|Win32.Build.0 = Debug|Win32
+		{7C7A4E77-253E-4176-882F-F0C67AD00828}.Release|Win32.ActiveCfg = Release|Win32
+		{7C7A4E77-253E-4176-882F-F0C67AD00828}.Release|Win32.Build.0 = Release|Win32
+		{3921E668-5B6A-43B5-A2D0-765622AC1A3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3921E668-5B6A-43B5-A2D0-765622AC1A3A}.Debug|Win32.Build.0 = Debug|Win32
+		{3921E668-5B6A-43B5-A2D0-765622AC1A3A}.Release|Win32.ActiveCfg = Release|Win32
+		{3921E668-5B6A-43B5-A2D0-765622AC1A3A}.Release|Win32.Build.0 = Release|Win32
+		{7711823B-70AC-4C10-8C3D-7B1CFA997F0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7711823B-70AC-4C10-8C3D-7B1CFA997F0D}.Debug|Win32.Build.0 = Debug|Win32
+		{7711823B-70AC-4C10-8C3D-7B1CFA997F0D}.Release|Win32.ActiveCfg = Release|Win32
+		{7711823B-70AC-4C10-8C3D-7B1CFA997F0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

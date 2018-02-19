@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DLTSgui - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP5300.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/DLTSgui.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Dlts\Source\DLTSgui\Boonton7200.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5300.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5301.TMP" with contents
+[
+nidaq32.lib gpib-32.obj /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DLTSgui.pdb" /map:"Debug/DLTSgui.map" /debug /machine:I386 /out:"Debug/DLTSgui.exe" /pdbtype:sept 
+.\Debug\Boonton7200.obj
+.\Debug\BoontonRange.obj
+.\Debug\BufferedFileWriter.obj
+.\Debug\ChildFrm.obj
+.\Debug\ComHandler.obj
+.\Debug\Console.obj
+.\Debug\DAQDevice.obj
+.\Debug\DataArray.obj
+.\Debug\DataArrayList.obj
+.\Debug\DataElement.obj
+.\Debug\DataHandler.obj
+.\Debug\DLTSdevice.obj
+.\Debug\DLTSgui.obj
+.\Debug\DLTSguiDoc.obj
+.\Debug\DLTSguiView.obj
+.\Debug\FileWriter.obj
+.\Debug\GraphProperties.obj
+.\Debug\HardwareException.obj
+.\Debug\ListFrame.obj
+.\Debug\MainFrm.obj
+.\Debug\PropertyDlg.obj
+.\Debug\SIZECBAR.OBJ
+.\Debug\StdAfx.obj
+.\Debug\StringTokenizer.obj
+.\Debug\TempController.obj
+.\Debug\VoltageOutDialog.obj
+.\Debug\WorkspaceWnd.obj
+.\Debug\Writer.obj
+.\Debug\DLTSgui.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP5301.TMP"
+<h3>Output Window</h3>
+Compiling...
+Boonton7200.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP5395.TMP" with contents
+[
+/nologo /o"Debug/DLTSgui.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Boonton7200.sbr
+.\Debug\BoontonRange.sbr
+.\Debug\BufferedFileWriter.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\ComHandler.sbr
+.\Debug\Console.sbr
+.\Debug\DAQDevice.sbr
+.\Debug\DataArray.sbr
+.\Debug\DataArrayList.sbr
+.\Debug\DataElement.sbr
+.\Debug\DataHandler.sbr
+.\Debug\DLTSdevice.sbr
+.\Debug\DLTSgui.sbr
+.\Debug\DLTSguiDoc.sbr
+.\Debug\DLTSguiView.sbr
+.\Debug\FileWriter.sbr
+.\Debug\GraphProperties.sbr
+.\Debug\HardwareException.sbr
+.\Debug\ListFrame.sbr
+.\Debug\MainFrm.sbr
+.\Debug\PropertyDlg.sbr
+.\Debug\SIZECBAR.SBR
+.\Debug\StringTokenizer.sbr
+.\Debug\TempController.sbr
+.\Debug\VoltageOutDialog.sbr
+.\Debug\WorkspaceWnd.sbr
+.\Debug\Writer.sbr]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP5395.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DLTSgui.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_t_mess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP42B0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/C_t_mess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Dlts\Source\C_t_mess\C_t_mess.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP42B0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP42B1.TMP" with contents
+[
+nidaq32.lib gpib-32.obj gdi32.lib kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_t_mess.pdb" /debug /machine:I386 /out:"Debug/C_t_mess.exe" /pdbtype:sept 
+.\Debug\Boonton7200.obj
+.\Debug\BufferedFileWriter.obj
+.\Debug\C_t_mess.obj
+.\Debug\Card.obj
+.\Debug\ComHandler.obj
+.\Debug\DataHandler.obj
+.\Debug\FileWriter.obj
+.\Debug\HardwareException.obj
+.\Debug\IOCard.obj
+.\Debug\main.obj
+.\Debug\Satz_typ.obj
+.\Debug\StdAfx.obj
+.\Debug\TempController.obj
+.\Debug\TimerCard.obj
+.\Debug\Writer.obj
+.\Debug\C_t_mess.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP42B1.TMP"
+<h3>Output Window</h3>
+Compiling...
+C_t_mess.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP4323.TMP" with contents
+[
+/nologo /o"Debug/C_t_mess.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Boonton7200.sbr
+.\Debug\BufferedFileWriter.sbr
+.\Debug\C_t_mess.sbr
+.\Debug\Card.sbr
+.\Debug\ComHandler.sbr
+.\Debug\DataHandler.sbr
+.\Debug\FileWriter.sbr
+.\Debug\HardwareException.sbr
+.\Debug\IOCard.sbr
+.\Debug\main.sbr
+.\Debug\Satz_typ.sbr
+.\Debug\TempController.sbr
+.\Debug\TimerCard.sbr
+.\Debug\Writer.sbr]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP4323.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C_t_mess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
